@@ -9,25 +9,20 @@
     <TextView
         android:id="@+id/box_one_text"
         style="@style/whiteBox"
-        android:layout_width="0dp"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_wide"
-        android:layout_marginTop="@dimen/margin_wide"
-        android:layout_marginEnd="@dimen/margin_wide"
         android:text="@string/box_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/box_two_text"
         style="@style/whiteBox"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginTop="16dp"
         android:text="@string/box_two"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_text"
-        tools:layout_editor_absoluteX="25dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="64dp" />
 
     <TextView
         android:id="@+id/box_three_text"
@@ -36,7 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/box_three"
         tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:layout_editor_absoluteY="81dp" />
 
     <TextView
         android:id="@+id/box_four_text"
@@ -45,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="@string/box_four"
         tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="122dp" />
+        tools:layout_editor_absoluteY="121dp" />
 
     <TextView
         android:id="@+id/box_five_text"
@@ -54,6 +49,6 @@
         android:layout_height="wrap_content"
         android:text="@string/box_five"
         tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="162dp" />
+        tools:layout_editor_absoluteY="161dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
