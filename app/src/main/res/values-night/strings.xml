@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="box_one">BoxOne</string>
+    <string name="how_to_play">How to play</string>
+    <string name="tap_the_boxes_and_buttons">Tap the screen and buttons</string>
 </resources>
