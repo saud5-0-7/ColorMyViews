@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setListeners()
     }
+
 
 
     private fun setListeners() {
@@ -22,8 +24,9 @@ class MainActivity : AppCompatActivity() {
         val view6 : View = findViewById(R.id.red_button)
         val view7 : View = findViewById(R.id.yellow_button)
         val view8 : View = findViewById(R.id.green_button)
+        val view9 : View = findViewById(R.id.constraint_layout)
         val clickableViews: List<View> =
-            listOf(view1 , view2 , view3 , view4 , view5 , view6 , view7 , view8 )
+            listOf(view1 , view2 , view3 , view4 , view5 , view6 , view7 , view8 ,view9 )
 
 
         for (item in clickableViews) {
@@ -54,7 +57,6 @@ class MainActivity : AppCompatActivity() {
 
 
             else -> view.setBackgroundColor(Color.LTGRAY)
-
 
         }
     }
